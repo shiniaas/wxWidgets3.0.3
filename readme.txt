@@ -7,6 +7,6 @@ Step:
 
 the release of wxWidgets will be saved in compile.
 
-To get some important infomation:
+To get some important information:
 1. tell you what compile flags to use: ./wx-config -cxxflags
 2. tell you what link flags to use：./wx-config –libs
