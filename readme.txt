@@ -2,7 +2,7 @@ Step:
 1.cd wxWidgets3.0.3
 2.mkdir compile
 3.cd compile
-4../configure --disable-shared --enable-unicode --with-osx_cocoa  --with-macosx-version-min=10.9 --with-macosx-sdk=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/ --prefix=`pwd` --disable-svg --enable-universal-binary=i386,x86_64
+4../configure --disable-shared --enable-unicode --with-osx_cocoa  --with-macosx-version-min=10.9 --with-macosx-sdk=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/ --prefix=`pwd` --disable-svg --enable-universal-binary=i386,x86_64
 5.make
 
 the release of wxWidgets will be saved in compile.
